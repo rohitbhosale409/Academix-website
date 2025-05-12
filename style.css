@@ -132,7 +132,7 @@ nav .navigation ul li a:hover {
 
 
 /* features */
-/* features */
+
 
 #features {
     padding: 5vw 8vw 0 8vw;
@@ -182,4 +182,122 @@ nav .navigation ul li a:hover {
     font-weight: 500;
     color: rgb(70, 70, 87);
     line-height: 1.5;
+}
+
+/* Course */
+/* 
+#Course {
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#Course .course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#Course .courses {
+    text-align: start;
+    background: #f9f9ff;
+    height: 100%;
+}
+
+#Course .courses img {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+} */
+
+/* Course Section Styles */
+
+#Course {
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+    background-color: #fff;
+}
+
+#Course h1 {
+    font-size: 2.5rem;
+    color: #2c2c50;
+    margin-bottom: 1rem;
+}
+
+#Course p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.courses {
+    background: #f9f9ff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.courses:hover {
+    transform: translateY(-5px);
+}
+
+.courses img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.details {
+    padding: 1rem;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.details span {
+    font-size: 0.9rem;
+    color: #888;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.details h6 {
+    font-size: 1.2rem;
+    color: #2e2e3b;
+    margin-bottom: 0.5rem;
+}
+
+.star {
+    color: #f9a825;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.star span {
+    color: #555;
+    margin-left: 8px;
+}
+
+.cost {
+    padding: 0.8rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c2c50;
+    background-color: #e0e7ff;
+    border-top: 1px solid #ddd;
+    text-align: right;
 }
