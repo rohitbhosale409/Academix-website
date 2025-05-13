@@ -301,3 +301,95 @@ nav .navigation ul li a:hover {
     border-top: 1px solid #ddd;
     text-align: right;
 }
+
+/* registration */
+
+/* Main section */
+.registration {
+    padding: 6vw 8vw;
+    background-image:
+        linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)),
+        url("images/signup.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4vw;
+    color: #fff;
+}
+
+/* Left side: Text & Timer */
+.remainder {
+    flex: 1 1 40%;
+}
+
+.remainder p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+
+.remainder h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.time {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.date {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Right side: Form */
+.form {
+    flex: 1 1 40%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.form h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form input::placeholder {
+    color: #999;
+}
+
+.form button.blue {
+    background-color: #5161e3;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button.blue:hover {
+    background-color: #3d49b0;
+}
