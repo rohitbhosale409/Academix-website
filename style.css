@@ -393,3 +393,206 @@ nav .navigation ul li a:hover {
 .form button.blue:hover {
     background-color: #3d49b0;
 }
+
+
+/* Experts Section */
+
+#experts {
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+#experts h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+#experts p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+#experts .expert-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+#experts .expert-box .profile {
+    background: #fafaf1;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+#experts .profile:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Expert Image */
+#experts .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Expert Name */
+#experts .profile h6 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+/* Expert Role */
+#experts .profile p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Social Links */
+#experts .profile .pro-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+#experts .profile .pro-links i {
+    font-size: 1rem;
+    color: #555;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+#experts .profile .pro-links i:hover {
+    background-color: #5161e3;
+    color: #fff;
+}
+
+/* footer CODE */
+
+/* Footer Grid Layout */
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-color: #222;
+    color: #fff;
+    padding: 60px 8vw;
+    gap: 2rem;
+}
+
+.footer-col h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #f4c10f;
+}
+
+.footer-col li {
+    list-style: none;
+    margin-bottom: 12px;
+    color: #ccc;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.footer-col li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Newsletter */
+.footer-col p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.subcribe {
+    display: flex;
+    align-items: center;
+}
+
+.subcribe input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 200px;
+}
+
+.subcribe .yellow {
+    background-color: #f4c10f;
+    padding: 10px 20px;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+}
+
+.subcribe .yellow:hover {
+    background-color: #e0b807;
+}
+
+/* Social Icons */
+.social-icons a {
+    color: #ccc;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f4c10f;
+}
+
+/* Scroll-to-Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    background-color: #f4c10f;
+    color: #111;
+    padding: 12px 14px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    z-index: 1000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #e0b807;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .subcribe {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .subcribe input[type="text"],
+    .subcribe .yellow {
+        width: 100%;
+        border-radius: 4px;
+    }
+}
